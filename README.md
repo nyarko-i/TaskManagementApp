@@ -79,14 +79,10 @@ Unit and component tests implemented using:
 npm run test
 ```
 
-````
-
-
-# Tests cover:
+### Tests cover:
 
 - ✅ Form field rendering
 - ✅ Form submission and validation
-
 
 ## 🗄️ Simulated Backend Interactions & Data Management
 
@@ -98,17 +94,13 @@ npm run test
 
 - **File Upload** uses browser-generated previews (`URL.createObjectURL`) — no actual file storage
 
-
-
 ## 🧹 How to Run the Project
 
 ### Install dependencies
 
 ```bash
 npm install
-````
-
-### Run the development server
+```
 
 ```bash
 npm run dev
@@ -127,4 +119,7 @@ _(or `3000` if Create React App was used)_
 ## 👨🏽‍💻 Author
 
 **Isaac Nyarko**
+
 Frontend Developer
+
+---
