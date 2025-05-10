@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* src/index.css or a global CSS file */
+:root {
+  --bg-color-light: #ffffff;
+  --bg-color-dark: #333333;
+  --text-color-light: #000000;
+  --text-color-dark: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+}
+
+.dark body {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+}
